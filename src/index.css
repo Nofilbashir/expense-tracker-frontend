@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.APP{
+  display: flex;
+}
+.rightContainer{
+  flex:6;
+  padding: 2rem;
+}
+
+/*  Category --> grocery, petrol, entertainment, resturant, school fee, rent, gym fee, electricty bill, internet bill, gas, bill, add a cutom category
+    Amount
+    Payment Method --> Debit Card, Credit Card, Cash
+    
+     */
+:root{
+  --primary_color:#8e47fc;
+  --secondary_color:#b2bdeb;
+  --bg_color: #ffffff;
+  --bg_color_home:#f4f7fe;
+}
+
+h4{ 
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+}
+
+p{
+font-style: normal;
+
+  font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+opacity: 0.7;
+}
+

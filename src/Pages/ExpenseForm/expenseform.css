@@ -1,0 +1,22 @@
+.mainform{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    box-shadow:  8px 8px 14px #aaaaaa, -8px -8px 14px #ffffff;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.amount{
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 2px solid rgba(88, 88, 88, 0.61);
+}
+
+.type{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 2px solid rgba(88, 88, 88, 0.61);
+}
